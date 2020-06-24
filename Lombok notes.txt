@@ -1,0 +1,28 @@
+				Lombok
+
+Lombok is used to reduce boilerplate code for model/data objects, e.g., it can generate getters and setters for those object automatically by using Lombok annotations.
+
+Step 1: In you Maven project, have the following dependency in pom.xml
+	<dependency>
+               <groupId>org.projectlombok</groupId>
+               <artifactId>lombok</artifactId>
+               <version>1.16.16</version>
+        </dependency>
+
+
+Step 2: Download Lombok jar file from the following website
+
+https://projectlombok.org/download
+
+Step 3: Once downloaded, double click to install. In the window, click install and update button,
+Now Lombok plugin is installed in your IDE.
+
+Lombok annotations
+
+@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
+@Slf4j
